@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5dfdf;
+}
+
+nav {
+    background: #98a5b3;
+    border-radius: 16px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    flex: 1;
+}
+
+nav a:hover {
+    background: #e0e0e0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #252729;
+    background-color: #b9aeae;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.image-gallery img,
+.image-gallery .kittens,
+.image-gallery .cat {
+    flex: 1; 
+    height: 180px; 
+    object-fit: cover; 
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin: 0; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.04);
+}
+
+.info-card-container {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.breed-card-container {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-top: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+    background-color: #98a5b3;
+    color: #252729;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #252729;
+}
+
+footer nav {
+    background: transparent;
+    box-shadow: none;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer nav a {
+    background: rgba(255, 255, 255, 0.2);
+    color: #252729;
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    flex: initial;
+}
+
+footer nav a:hover {
+    background: #e0e0e0;
+    color: #333;
+}
