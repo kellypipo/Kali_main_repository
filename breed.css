@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaf0f6; /* Cool blue-gray background */
+    color: #2c3e50;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav {
+    background: #2c3e50;
+    border-radius: 12px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+nav a:hover, nav a.active {
+    background: #3498db;
+    color: #ffffff;
+}
+h1, h2 {
+    background-color: #d4e6f1;
+    color: #1b4f72;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.image-gallery {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+.image-gallery img {
+    flex: 1;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.breed-card-container {
+    background-color: #ffffff;
+    border-left: 5px solid #3498db;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
